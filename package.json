@@ -1,0 +1,26 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "send sms",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc17/sms.git"
+  },
+
+  "dependencies": {
+   "twilio" : "2.11.1",
+   "express": "^4.14.0"
+    },
+
+  "author": "sc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sc17/sms/issues"
+  },
+  "homepage": "https://github.com/sc17/sms#readme"
+}
